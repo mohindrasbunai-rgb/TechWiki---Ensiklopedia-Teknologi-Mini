@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWiki - Ensiklopedia Teknologi Mini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container navbar">
+            <h1 class="logo">Tech<span>Wiki</span></h1>
+            <nav>
+                <a href="#">Beranda</a>
+                <a href="#artikel">Artikel</a>
+                <a href="#tentang">Tentang</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h2>Belajar Dasar Pemograman & Teknologi</h2>
+            <p>Portal ensiklopedia mini untuk memahami dasar-dasar HTML, CSS, dan perkembangan teknologi web modern</p>
+            <a href="#artikel" class="btn">Mulai Membaca</a>
+        </div>
+    </section>
+
+    <div class="container main-container" id="artikel">
+        <main class="content-area">
+            <article class="card-article">
+                <h3>Mengenal Dasar HTML dan Struktur Dokumen</h3>
+                <p class="meta">Dipublikasikan oleh saya • 12 November 2026</p>
+                <p>HTML (HyperText Markup Language) adalah bahasa tandai standar yang digunakan untuk membuat halaman web. Dengan HTML, kita bisa menyusun judul, pargraf, gambar, tautan, hingga tabel agar sebuah website memiliki kerangka yang jelas.</p>
+                <br>
+                <p>Setiap dokumen HTMk memerlukan struktur dasar seperti tag `&lt;html&gt;`, `&lt;head&gt;`, dan `&lt;body&gt;` agar dapat dibaca dengan baik oleh peramban web (*browser*).</p>
+            </article>
+
+            <article class="card-article">
+                <h3>Mengatur Tampilan dengan CSS dan Media Query</h3>
+                <p class="meta">Dipublikasikan oleh saya • 12 November 2026</p>
+                <p>Cascading Style Sheets (CSS) berfungsi untuk mempercantik tampilan halaman web. Melalui CSS, kita bisa mengatur warna, jenis huruf, jarak, hingga tata letak menggunakan Flexbox.</p>
+                <br>
+                <p>Selain itu, dengan fitur <strong>Media Query</strong>, kita bisa mengubah tata letak halaman secara otomatis agar tetap rapi dan mudah dibaca baik saat diakses lewat laptop maupun layar *smartphone*.</p>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <div class="widget">
+                <h4>Kategori Populer</h4>
+                <ul>
+                    <li><a href="#">HTML & CSS Dasar</a></li>
+                    <li><a href="#">JavaScript Interaktif</a></li>
+                    <li><a href="#">Tips & Trik Coding</a></li>
+                    <li><a href="#">Deployment Netlify</a></li>
+                </ul>
+            </div>
+
+            <div class="widget" id="tentang">
+                <h4>Tentang Website</h4>
+                <p style="font-size: 14px; color: #555;">Website mini wiki ini dibuat sebagai tugas praktikum pemograman web menggunakan standar HTML dan CSS responsif/p>
+            </div>
+        </aside>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 TechWiki. Dibuat dengan HTML & CSS untuk Tugas Pemograman Web.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
